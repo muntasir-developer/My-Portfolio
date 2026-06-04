@@ -21,7 +21,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Md Muntasir — Full-stack developer",
   description:
-    "Full-stack developer with a marketing mind. Available for internships, remote or in-office.",
+    "Full-stack developer with a marketing mind. I build SaaS platforms, web apps, and websites for founders and teams.",
 };
 
 export default function RootLayout({
