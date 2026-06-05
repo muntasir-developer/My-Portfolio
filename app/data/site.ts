@@ -12,9 +12,9 @@ export const links = {
   autodmRepo: "#", // TODO: AutoDM GitHub repo URL
 
   // Socials
-  github: "#", // TODO: GitHub profile URL
-  linkedin: "#", // TODO: LinkedIn profile URL
-  x: "#", // TODO: X (Twitter) profile URL
+  github: "https://github.com/muntasir-developer",
+  linkedin: "https://www.linkedin.com/in/mdmuntasir-",
+  x: "https://x.com/bhai_muntasir",
 
   // Contact
   email: "mailto:mdmuntasirbhai10786@gmail.com",
