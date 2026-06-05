@@ -56,10 +56,16 @@ export default function MagneticButton({
       ? "bg-fg text-bg hover:bg-accent"
       : "border border-border text-fg hover:border-accent hover:text-accent";
 
+  // Open external links (http/https, e.g. WhatsApp) in a new tab so the
+  // portfolio stays open; keep anchors and mailto in the same tab.
+  const external = href.startsWith("http");
+
   return (
     <motion.a
       ref={ref}
       href={href}
+      target={external ? "_blank" : undefined}
+      rel={external ? "noopener noreferrer" : undefined}
       onMouseMove={handleMove}
       onMouseLeave={handleLeave}
       style={{ x: springX, y: springY }}

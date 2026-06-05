@@ -3,6 +3,7 @@ import MagneticButton from "./MagneticButton";
 import { links, linkProps } from "../data/site";
 
 const socials = [
+  { label: "WhatsApp", href: links.whatsapp },
   { label: "GitHub", href: links.github },
   { label: "LinkedIn", href: links.linkedin },
   { label: "X", href: links.x },
@@ -26,7 +27,7 @@ export default function Contact() {
           </p>
 
           <div className="mt-10 flex justify-center">
-            <MagneticButton href={links.email} variant="solid">
+            <MagneticButton href={links.whatsapp} variant="solid">
               Get in touch
             </MagneticButton>
           </div>

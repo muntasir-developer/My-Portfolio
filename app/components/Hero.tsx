@@ -4,6 +4,7 @@ import { motion, useReducedMotion, type Variants } from "motion/react";
 import ParticleCanvas from "./ParticleCanvas";
 import TypedText from "./TypedText";
 import MagneticButton from "./MagneticButton";
+import { links } from "../data/site";
 
 const NAME = "Md Muntasir";
 
@@ -110,7 +111,7 @@ export default function Hero() {
           <MagneticButton href="#work" variant="solid">
             View work
           </MagneticButton>
-          <MagneticButton href="#contact" variant="outline">
+          <MagneticButton href={links.whatsapp} variant="outline">
             Hire me
           </MagneticButton>
         </motion.div>
