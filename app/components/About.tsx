@@ -6,7 +6,7 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-24 sm:px-10 sm:py-32 md:grid-cols-[1fr_1.8fr] md:gap-16">
         <Reveal>
           <p className="text-xs uppercase tracking-[0.25em] text-muted">
-            02 — About
+            03 — About
           </p>
           <h2 className="mt-3 font-serif text-4xl leading-tight tracking-tight sm:text-5xl">
             A developer who understands growth.

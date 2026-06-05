@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="mx-auto max-w-4xl px-6 py-24 text-center sm:px-10 sm:py-40">
         <Reveal>
           <p className="text-xs uppercase tracking-[0.25em] text-muted">
-            04 — Contact
+            06 — Contact
           </p>
           <h2 className="mt-4 font-serif text-5xl leading-[1.05] tracking-tight sm:text-7xl">
             Let&apos;s build something.

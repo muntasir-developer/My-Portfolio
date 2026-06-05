@@ -51,7 +51,7 @@ export default function Hero() {
           variants={fadeUp}
           className="mb-6 text-xs uppercase tracking-[0.25em] text-muted"
         >
-          Full-stack developer · Marketing mind
+          Full-stack developer × marketing mind
         </motion.p>
 
         <motion.h1
@@ -84,16 +84,27 @@ export default function Hero() {
           className="mt-8 max-w-xl text-lg text-muted sm:text-xl"
         >
           <TypedText
-            text="I build modern web experiences with a marketing mind."
+            text="I build web products that grow, not just launch."
             startDelay={reduce ? 0 : 900}
           />
+        </motion.p>
+
+        <motion.p
+          initial={reduce ? false : "hidden"}
+          animate="show"
+          variants={fadeUp}
+          transition={{ delay: 0.95 }}
+          className="mt-4 max-w-xl text-base text-muted"
+        >
+          Full-stack on a modern stack — React, Next.js, real auth and APIs —
+          with a marketer&apos;s eye for what actually converts.
         </motion.p>
 
         <motion.div
           initial={reduce ? false : "hidden"}
           animate="show"
           variants={fadeUp}
-          transition={{ delay: 0.9 }}
+          transition={{ delay: 1.1 }}
           className="mt-10 flex flex-wrap gap-4"
         >
           <MagneticButton href="#work" variant="solid">

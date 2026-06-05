@@ -34,7 +34,7 @@ export default function Stack() {
       <div className="mx-auto max-w-6xl px-6 py-24 sm:px-10 sm:py-32">
         <Reveal>
           <p className="text-xs uppercase tracking-[0.25em] text-muted">
-            03 — Stack
+            05 — Stack
           </p>
           <h2 className="mt-3 font-serif text-4xl tracking-tight sm:text-5xl">
             Tools I reach for.
