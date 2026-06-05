@@ -1,0 +1,14 @@
+# Netlify configuration for this Next.js 16 (App Router) site.
+# The @netlify/plugin-nextjs adapter is what serves Server Components /
+# App Router routes — without it Netlify returns "Page not found".
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # Next.js 16 requires Node 20+. Netlify's older default can fail the build.
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
