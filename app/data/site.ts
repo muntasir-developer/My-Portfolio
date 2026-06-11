@@ -21,6 +21,10 @@ export const links = {
   whatsapp: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     whatsappMessage
   )}`,
+
+  // Résumé (Google Drive — must be shared "Anyone with the link")
+  resume:
+    "https://drive.google.com/file/d/17yAg4PUL8161nadXoezSzgOcCtoPDMpV/view?usp=sharing",
 };
 
 /** True for the "#" placeholders so the UI can mark them as not-yet-live. */

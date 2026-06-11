@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { links as site } from "../data/site";
 
 const links = [
   { href: "#work", label: "Work" },
@@ -55,6 +56,16 @@ export default function Nav() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href={site.resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-accent/40 px-4 py-1.5 text-fg transition-colors hover:border-accent hover:text-accent"
+            >
+              Résumé ↗
+            </a>
+          </li>
         </ul>
 
         <button
@@ -94,6 +105,17 @@ export default function Nav() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href={site.resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="block py-3 font-serif text-accent"
+            >
+              Résumé ↗
+            </a>
+          </li>
         </ul>
       </div>
     </header>

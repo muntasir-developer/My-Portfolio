@@ -4,6 +4,7 @@ import { links, linkProps } from "../data/site";
 
 const socials = [
   { label: "WhatsApp", href: links.whatsapp },
+  { label: "Résumé", href: links.resume },
   { label: "GitHub", href: links.github },
   { label: "LinkedIn", href: links.linkedin },
   { label: "X", href: links.x },
